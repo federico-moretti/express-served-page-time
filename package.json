@@ -1,5 +1,5 @@
 {
-  "name": "express-served-page-timer",
+  "name": "express-served-page-time",
   "version": "1.0.0",
   "description": "Express middleware that outputs in your view the time used to serve the page.",
   "main": "./lib/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/parcel-bundler/parcel.git"
+    "url": "https://github.com/ikos9/express-served-page-time.git"
   },
   "engines": {
     "node": ">= 8.0.0"
