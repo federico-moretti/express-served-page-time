@@ -1,0 +1,23 @@
+{
+  "name": "express-served-page-timer",
+  "version": "1.0.0",
+  "description": "Express middleware that outputs in your view the time used to serve the page.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "compile": "babel src -d lib",
+    "prepublish": "npm run compile"
+  },
+  "author": "Federico Moretti",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parcel-bundler/parcel.git"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  }
+}
