@@ -1,4 +1,4 @@
-# express-served-page-timer
+# express-served-page-time
 
 Express middleware that outputs in your view the time used to serve the page.
 
@@ -6,7 +6,7 @@ Express middleware that outputs in your view the time used to serve the page.
 
 via npm:
 ```bash
-$   npm install --save express-served-page-timer
+$   npm install --save express-served-page-time
 ```
 
 ## Get started
@@ -15,16 +15,16 @@ Initialize it just after Express
 
 ```js
 const express = require('express');
-const pageTimer = require('express-served-page-timer');
+const pageTimer = require('express-served-page-time');
 
 const app = express();
 app.use(pageTimer());
 ```
 
-Your view file (with Pug in this example)
+In your view file use the local variable `timer` to get the time.
 
 ```pug
-p This page was served in #{pageTimer.getTime()} seconds.
+p This page was served in #{timer.getTime()} seconds.
 ```
 Will render this:
 
