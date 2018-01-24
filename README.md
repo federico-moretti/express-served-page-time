@@ -56,4 +56,4 @@ p This page was served in #{anotherName.getTime()} seconds.
 
 ## License
 
-[MIT](LICENSE) (c) Federico Moretti
+[MIT](LICENSE) © Federico Moretti

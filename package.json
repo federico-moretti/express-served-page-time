@@ -1,6 +1,6 @@
 {
   "name": "express-served-page-time",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express middleware that outputs in your view the time used to serve the page.",
   "main": "./lib/index.js",
   "scripts": {
@@ -9,6 +9,11 @@
   },
   "author": "Federico Moretti",
   "license": "MIT",
+  "keywords": [
+    "express",
+    "timer",
+    "middleware"
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1"
