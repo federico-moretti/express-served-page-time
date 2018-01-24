@@ -11,7 +11,7 @@ $   npm install --save express-served-page-time
 
 ## Get started
 
-Initialize it just after Express
+Initialize it as a middleware after Express.
 
 ```js
 const express = require('express');
@@ -21,12 +21,12 @@ const app = express();
 app.use(pageTimer());
 ```
 
-In your view file use the local variable `timer` to get the time.
+In your view file use the local variable `timer` to return the value.
 
 ```pug
 p This page was served in #{timer.getTime()} seconds.
 ```
-Will render this:
+The output will be:
 
 ```html
 <p>This page was served in 0.0215 seconds.</p>
@@ -56,4 +56,4 @@ p This page was served in #{anotherName.getTime()} seconds.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) (c) Federico Moretti
