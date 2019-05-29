@@ -6,7 +6,7 @@ Express middleware that outputs in your view the time used to serve the page.
 
 via npm:
 ```bash
-$   npm install --save express-served-page-time
+npm install --save express-served-page-time
 ```
 
 ## Get started
